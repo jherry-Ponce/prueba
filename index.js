@@ -89,7 +89,7 @@ function modal(id)
                    ${datos[0].first_name}
                    ${datos[0].last_name}
                 </h3>
-               _                <div>
+                              <div>
                 <p>${datos[0].email}</p>
                 </div>
             </div>
