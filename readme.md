@@ -3,7 +3,6 @@
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
 ### General Info
 ***
 Pagina web que consume dos apis y muestra una lista de usuarios con su respectiva informacion.
