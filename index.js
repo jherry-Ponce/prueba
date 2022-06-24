@@ -1,8 +1,5 @@
 const api_list=document.querySelector(".container");
 const arr=[];
-
-
-
 if(localStorage.arr){
     console.log("ya no consumo la api");
     let varia=[];
@@ -26,8 +23,6 @@ if(localStorage.arr){
         });
     }
 }
-
-
 function component(contenedor){
     console.log(contenedor);
     contenedor.forEach(element => {
@@ -46,7 +41,6 @@ function component(contenedor){
                    ${element.first_name}
                    ${element.last-name}
                 </h3>
-               
                 <div>
                 <p>${element.email}</p>
                 </div>
@@ -57,11 +51,6 @@ function component(contenedor){
        
     });
 }
-
-
-
-
-
 function modal(id)
 { 
     let modals=document.querySelector(".modal");
@@ -76,11 +65,7 @@ function modal(id)
    
    body.innerHTML+=` <div class="bg">
         <div class="container-m ">
-            
-            
-                    <img  src="${datos[0].avatar}" alt="">
-                
-            
+            <img  src="${datos[0].avatar}" alt="">
         </div>
         <div class=" ">
             <div class="espacio">
@@ -89,7 +74,7 @@ function modal(id)
                    ${datos[0].first_name}
                    ${datos[0].last_name}
                 </h3>
-                              <div>
+             <div>
                 <p>${datos[0].email}</p>
                 </div>
             </div>
